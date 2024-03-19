@@ -11,77 +11,70 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:layout_marginStart="54dp"
-        android:layout_marginTop="16dp"
         android:hint="숫자"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="18dp" />
 
     <EditText
         android:id="@+id/Edit2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:layout_marginStart="54dp"
-        android:layout_marginTop="17dp"
+        android:layout_marginTop="18dp"
         android:hint="숫자"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Edit1" />
+        app:layout_constraintTop_toBottomOf="@+id/Edit1"
+        tools:layout_editor_absoluteX="18dp" />
 
     <Button
         android:id="@+id/BtnAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
         android:text="더하기"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Edit2" />
 
     <Button
         android:id="@+id/BtnSub"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="386dp"
+        android:layout_height="45dp"
         android:layout_margin="18dp"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="83dp"
-        android:text="더하기"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/BtnAdd" />
+        android:layout_marginTop="24dp"
+        android:text="빼기"
+        app:layout_constraintTop_toBottomOf="@+id/BtnAdd"
+        tools:layout_editor_absoluteX="18dp" />
 
     <Button
         android:id="@+id/BtnMul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:layout_marginTop="128dp"
-        android:text="더하기"
+        android:layout_marginTop="40dp"
+        android:text="곱하기"
         app:layout_constraintTop_toBottomOf="@+id/BtnSub"
-        tools:layout_editor_absoluteX="18dp" />
+        tools:layout_editor_absoluteX="19dp" />
 
     <Button
         android:id="@+id/BtnDiv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="18dp"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="175dp"
-        android:text="더하기"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/BtnMul" />
+        android:layout_marginTop="49dp"
+        android:text="나누기"
+        app:layout_constraintTop_toBottomOf="@+id/BtnMul"
+        tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/TextResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:layout_marginStart="138dp"
-        android:layout_marginTop="223dp"
         android:text="계산결과 : "
         android:textColor="#FF0000"
         android:textSize="30dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/BtnDiv"></TextView>
+        app:layout_constraintTop_toBottomOf="@+id/BtnDiv"
+        tools:layout_editor_absoluteX="0dp"></TextView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

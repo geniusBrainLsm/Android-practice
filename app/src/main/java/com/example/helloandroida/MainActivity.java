@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnAdd.setOnTouchListener(new View.OnTouchListener() {
+        btnDiv.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 // 문자열을 숫자로 변환
